@@ -1,0 +1,47 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3" id="baller">
+			<h1>JavaScript Calculator</h1>
+		</div>
+
+
+      <div class="col-lg-4" id="main">
+    		<form class="asdf">
+    			<input type="text" id="display" disabled>
+    			<br/>
+    			<input type="button" value="C" id="keys" onclick='toScreen("C")'>
+    			<input type="button" value="CE" id="keys" onclick='backspace()'>
+    			<input type="button" value="x^2" id="keys" onclick='power()'>
+    			<input type="button" value="/" id="keys" onclick='toScreen("/")'>
+    			<br/>
+    			<input type="button" value="7" id="keys" onclick='toScreen("7")'>
+    			<input type="button" value="8" id="keys" onclick='toScreen("8")'>
+    			<input type="button" value="9" id="keys" onclick='toScreen("9")'>
+    			<input type="button" value="*" id="keys" onclick='toScreen("*")'>
+    			<br/>
+    			<input type="button" value="4" id="keys" onclick='toScreen("4")'>
+    			<input type="button" value="5" id="keys" onclick='toScreen("5")'>
+    			<input type="button" value="6" id="keys" onclick='toScreen("6")'>
+    			<input type="button" value="-" id="keys" onclick='toScreen("-")'>
+    			<br/>
+    			<input type="button" value="1" id="keys" onclick='toScreen("1")'>
+    			<input type="button" value="2" id="keys" onclick='toScreen("2")'>
+    			<input type="button" value="3" id="keys" onclick='toScreen("3")'>
+    			<input type="button" value="+" id="keys" onclick='toScreen("+")'>
+    			<br/>
+    			<input type="button" value="0" id="keys" onclick='toScreen("0")'>
+    			<input type="button" value="." id="keys" onclick='toScreen(".")'>
+    			<input type="button" value="=" id="equal" onclick='answer()'>
+    		</form>
+      </div>
+  	</div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>

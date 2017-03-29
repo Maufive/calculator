@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Poiret+One|Press+Start+2P');
+
+body {
+	 background: linear-gradient(to left, #56ab2f , #a8e063);
+}
+
+#main {
+	border: 3px solid black;
+	border-radius: 50px;
+	background: linear-gradient(to left, #737373 , #939393);
+	padding-left: 40px;
+	height: 400px;
+	padding-top: 30px;
+	margin-top: 2%;
+	max-width: 300px !important;
+}
+
+
+
+#keys,
+#equal {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 5px;
+	font-family: 'Bungee';
+	padding: 0;
+	border: none;
+}
+
+#keys:focus,
+#equal:focus {
+	outline: none;
+	border: none;
+}
+
+#display {
+	width: 213px;
+	height: 50px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+	text-align: right;
+	font-size: 24px;
+	font-family: 'Bungee';
+}
+
+#equal {
+	width: 104px;
+	background: #0275D8;
+	color: white;
+	border: none;
+}
+
+#baller {
+	font-family: 'Poiret One';
+	color: white;
+	text-align: center;
+	margin-left: 75px;
+	margin-top: 75px;
+}
